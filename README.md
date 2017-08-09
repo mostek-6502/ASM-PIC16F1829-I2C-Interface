@@ -12,7 +12,8 @@ CRC checking was added before sending the data through a serial port.
 The Delay's for this version of the code were 'older'.
 
 I eventually wrote a C++ app that would calculate a desired delay based on clock speed and clock ticks per instruction. In this case the instructions were NOPs, Calls, Returns, Jumps, Decs, MOVF etc.
-Generally, specific delays on the older PIC's had to be hand calculated and were painful to get right. I 'brute forced' it and cycled through every possibility. (It only took a few seconds to calculate.)
+
+Generally, specific delays on the older PIC's had to be hand calculated and were painful to get right. I 'brute forced' it and cycled through every possibility (24 bit precision) to get an accurate delay.
 
 
 http://www.microchip.com/wwwproducts/en/PIC16F1829 
