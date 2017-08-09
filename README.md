@@ -28,5 +28,7 @@ Generally, specific delays on the older PIC's had to be hand calculated and were
 If you want that code, ask and I will try to find it.
 
 http://www.microchip.com/wwwproducts/en/PIC16F1829 
+
 https://datasheets.maximintegrated.com/en/ds/DS2482-800.pdf 
+
 https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
