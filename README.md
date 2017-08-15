@@ -1,7 +1,7 @@
 # PIC16F1829-Assembly
 This Assembly code was written for a Microchip PIC16F1829 processor.
 
-This code utilized the I2C protocol to talk to multiple Dallas Semiconductor DS2482-800's with the down stream I2C communication to DS18B20's.
+This code utilizes the I2C protocol to talk to multiple Dallas Semiconductor DS2482-800's with the down stream I2C communication to DS18B20's.
 
 For my purposes, I used one DS2482-800 Channel per DS18B20 probe even though the 1-Wire protocol allows multiple probes to hang off the same channel.
 
