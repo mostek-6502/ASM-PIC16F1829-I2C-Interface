@@ -3,8 +3,8 @@
 ;
 ; Date: September 16th, 2014
 ;
-; In order to allow more program in Bank 0, this llows the linker to place
-; this stuff anywhere
+; In order to allow more program in Bank 0, this was broken out in order to allow the linker to place
+; this code in a different Bank, if needed.
 ;
 
  list p=16f1829       ; set processor type
